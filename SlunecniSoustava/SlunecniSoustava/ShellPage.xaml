@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:SlunecniSoustava"
+             x:Class="SlunecniSoustava.ShellPage">
+    <FlyoutItem Title="Domů">
+        <views:MainPage/>
+    </FlyoutItem>
+    <FlyoutItem Title="Výběr planety">
+        <views:PlanetSelectionPage/>
+    </FlyoutItem>
+    <FlyoutItem Title="Info o planetě">
+        <Tab>
+            <ShellContent Title="Atmosféra">
+                <views:DisplayAtmosferaPage/>
+            </ShellContent>
+            <ShellContent Title="Fyzikální charakteristika">
+                <views:DisplayFyzikalniCharakteristikaPage/>
+            </ShellContent>
+            <ShellContent Title="Oběžná dráha">
+                <views:DisplayObeznaDrahaPage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+</Shell>

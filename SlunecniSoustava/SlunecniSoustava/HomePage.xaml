@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SlunecniSoustava.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Sluneční soustava" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Vítejte ve Sluneční soustavě!" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="V hlavní nabídce si vyberte o jaké planetě chcete zobrazit informace." FontSize="16" Padding="30,0,30,0"/>
+    </StackLayout>
+
+</ContentPage>
