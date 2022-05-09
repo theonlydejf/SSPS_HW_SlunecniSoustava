@@ -9,6 +9,8 @@ namespace SlunecniSoustava.Data
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
+        public static Planeta Current;
+
         private string jmeno;
         public string Jmeno { get => jmeno; set { jmeno = value; PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Jmeno")); } }
         public FyzikalniCharakteristika FyzikalniCharakteristika { get; set; }
