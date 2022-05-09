@@ -7,5 +7,10 @@ namespace SlunecniSoustava.Data
     public struct Atmosfera
     {
         public decimal Tlak { get; set; }
+
+        public override string ToString()
+        {
+            return $"Tlak: {Tlak}";
+        }
     }
 }

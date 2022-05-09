@@ -4,9 +4,6 @@
              x:Class="SlunecniSoustava.DisplayAtmosferaPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Tlak"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
             <Label Text="{Binding Path=Atmosfera.Tlak}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />

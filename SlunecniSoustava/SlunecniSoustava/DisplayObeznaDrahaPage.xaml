@@ -4,7 +4,7 @@
              x:Class="SlunecniSoustava.DisplayObeznaDrahaPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="{Binding ObeznaDraha}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

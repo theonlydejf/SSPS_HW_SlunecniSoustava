@@ -7,10 +7,12 @@ namespace SlunecniSoustava.Data
     public struct FyzikalniCharakteristika
     {
         public decimal RovnikovyPrumer { get; set; }
-        public decimal PolarniPrumer { get; set; }
-        public decimal Povrch { get; set; }
         public decimal Objem { get; set; }
-        public decimal Hmotnot { get; set; }
-        public decimal GravitaceNaRovniku { get; set; }
+        public decimal Hmotnost { get; set; }
+
+        public override string ToString()
+        {
+            return $"RovnikovyPrumer {RovnikovyPrumer}\nObjem: {Objem}\nHmotnost: {Hmotnost}";
+        }
     }
 }

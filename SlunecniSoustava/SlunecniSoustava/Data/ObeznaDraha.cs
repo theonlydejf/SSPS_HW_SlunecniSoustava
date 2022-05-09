@@ -10,5 +10,10 @@ namespace SlunecniSoustava.Data
         public decimal Afelium { get; set; }
 
         public double MinRychlost { get; set; }
+
+        public override string ToString()
+        {
+            return $"Perihelium: {Perihelium}\nAfelium: {Afelium}\nMinRychlost: {MinRychlost}";
+        }
     }
 }
